@@ -30,13 +30,13 @@
         {
             this.lblDisplay = new System.Windows.Forms.Label();
             this.txt3 = new System.Windows.Forms.TextBox();
-            this.txt2 = new System.Windows.Forms.TextBox();
-            this.txt1 = new System.Windows.Forms.TextBox();
+            this.txtoutput2 = new System.Windows.Forms.TextBox();
+            this.txtoutput1 = new System.Windows.Forms.TextBox();
             this.txt4 = new System.Windows.Forms.TextBox();
             this.txt5 = new System.Windows.Forms.TextBox();
             this.btnCalculate = new System.Windows.Forms.Button();
-            this.lbl1 = new System.Windows.Forms.Label();
-            this.lbl2 = new System.Windows.Forms.Label();
+            this.input1 = new System.Windows.Forms.Label();
+            this.input2 = new System.Windows.Forms.Label();
             this.lbl3 = new System.Windows.Forms.Label();
             this.lbl4 = new System.Windows.Forms.Label();
             this.lbl5 = new System.Windows.Forms.Label();
@@ -56,19 +56,19 @@
             this.txt3.Size = new System.Drawing.Size(100, 20);
             this.txt3.TabIndex = 1;
             // 
-            // txt2
+            // txtoutput2
             // 
-            this.txt2.Location = new System.Drawing.Point(107, 179);
-            this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(100, 20);
-            this.txt2.TabIndex = 2;
+            this.txtoutput2.Location = new System.Drawing.Point(107, 179);
+            this.txtoutput2.Name = "txtoutput2";
+            this.txtoutput2.Size = new System.Drawing.Size(100, 20);
+            this.txtoutput2.TabIndex = 2;
             // 
-            // txt1
+            // txtoutput1
             // 
-            this.txt1.Location = new System.Drawing.Point(107, 118);
-            this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(100, 20);
-            this.txt1.TabIndex = 3;
+            this.txtoutput1.Location = new System.Drawing.Point(107, 118);
+            this.txtoutput1.Name = "txtoutput1";
+            this.txtoutput1.Size = new System.Drawing.Size(100, 20);
+            this.txtoutput1.TabIndex = 3;
             // 
             // txt4
             // 
@@ -94,23 +94,23 @@
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
-            // lbl1
+            // input1
             // 
-            this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(30, 118);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(32, 13);
-            this.lbl1.TabIndex = 7;
-            this.lbl1.Text = "item1";
+            this.input1.AutoSize = true;
+            this.input1.Location = new System.Drawing.Point(30, 118);
+            this.input1.Name = "input1";
+            this.input1.Size = new System.Drawing.Size(32, 13);
+            this.input1.TabIndex = 7;
+            this.input1.Text = "item1";
             // 
-            // lbl2
+            // input2
             // 
-            this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(33, 185);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(32, 13);
-            this.lbl2.TabIndex = 8;
-            this.lbl2.Text = "item2";
+            this.input2.AutoSize = true;
+            this.input2.Location = new System.Drawing.Point(33, 185);
+            this.input2.Name = "input2";
+            this.input2.Size = new System.Drawing.Size(32, 13);
+            this.input2.TabIndex = 8;
+            this.input2.Text = "item2";
             // 
             // lbl3
             // 
@@ -147,13 +147,13 @@
             this.Controls.Add(this.lbl5);
             this.Controls.Add(this.lbl4);
             this.Controls.Add(this.lbl3);
-            this.Controls.Add(this.lbl2);
-            this.Controls.Add(this.lbl1);
+            this.Controls.Add(this.input2);
+            this.Controls.Add(this.input1);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txt5);
             this.Controls.Add(this.txt4);
-            this.Controls.Add(this.txt1);
-            this.Controls.Add(this.txt2);
+            this.Controls.Add(this.txtoutput1);
+            this.Controls.Add(this.txtoutput2);
             this.Controls.Add(this.txt3);
             this.Controls.Add(this.lblDisplay);
             this.Name = "Form1";
@@ -168,13 +168,13 @@
 
         private System.Windows.Forms.Label lblDisplay;
         private System.Windows.Forms.TextBox txt3;
-        private System.Windows.Forms.TextBox txt2;
-        private System.Windows.Forms.TextBox txt1;
+        private System.Windows.Forms.TextBox txtoutput2;
+        private System.Windows.Forms.TextBox txtoutput1;
         private System.Windows.Forms.TextBox txt4;
         private System.Windows.Forms.TextBox txt5;
         private System.Windows.Forms.Button btnCalculate;
-        private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.Label input1;
+        private System.Windows.Forms.Label input2;
         private System.Windows.Forms.Label lbl3;
         private System.Windows.Forms.Label lbl4;
         private System.Windows.Forms.Label lbl5;

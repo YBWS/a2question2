@@ -39,20 +39,24 @@ namespace Oct._13
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            double item1 = Convert.ToDouble(txt1.Text);
-            double item2 = Convert.ToDouble(txt2.Text);
+            double item1 = Convert.ToDouble(txtoutput1.Text);
+            double item2 = Convert.ToDouble(txtoutput2.Text);
             double item3 = Convert.ToDouble(txt3.Text);
             double item4 = Convert.ToDouble(txt4.Text);
             double item5 = Convert.ToDouble(txt5.Text);
 
             double average = (item1 + item2 + item3 + item4 + item5) / 5.0;
             lblDisplay.Text = "Average"+ average;
-            
-            //Display all caculate to the user
-        
-           
 
-            
+            //computer display
+            lblDisplay.Text = string.Format("{0,10}{1,15:C2}\n{2,10}{3,15:C2}\n{4,10}{5,15:C2}",
+                 "item1", input1, "item2", input2);
+
+
+
+
+
+
 
         }
     }
